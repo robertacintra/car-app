@@ -2,11 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
 }
 
 body {
     font-family: 'Saira Condensed', sans-serif;
+}
+
+h2 {
+    color: #AB1725;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 500;
+    letter-spacing: 0.3em;
+}
+
+h5 {
+    color: #0F1C2D;
+    font-weight: 500;
+}
+
+a:link, a:visited { 
+    color: #0F1C2D;
+    text-decoration: none;
+}
+
+a:link:active, a:visited:active { 
+    color: #0F1C2D;
+}
+
+.highlight__red {
+    color: #AB1725;
+    font-weight: 500;
 }
 
 .navbar {
@@ -20,10 +49,6 @@ body {
     margin: 7px;
 }
 
-.navbar__menu {
-    float: left;
-}
-
 .navbar__menu li {
     list-style: none;
     font-size: 0.8rem;
@@ -31,18 +56,59 @@ body {
     color: #A8A8A8;
     display: inline-block;
     cursor: pointer;
+    letter-spacing: 0.1em;
+    margin: auto 0.9em;
 }
 
 .navbar__menu li:hover{
-    color: #000000;
+    color: #0F1C2D;
+}
+
+.navbar__menu a:active {
+    border-bottom: 2px solid #AB1725;
+    font-weight: bold;
 }
 
 section {
     width: 960px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    position: relative;
+    color: #AB1725;
+}
+
+.section__container {
+    font-size: 1.5rem;
+}
+
+.section__header {
+    position: absolute;
+    z-index: 99;
+    top: 34%;
+    left: 23%;
+    width: 62%;
+}
+
+.section__begin {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30vh;
+    text-transform: uppercase;
+    color: #0F1C2D;
+    letter-spacing: 0.2em;
+    flex-direction: row;
+}
+
+.section__title {
+    font-size: 8rem;
+    display: block;
+    text-transform: uppercase;
+    color: #0F1C2D;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    margin-top: -40px;
 }
 
 .footerbar {
@@ -55,8 +121,7 @@ section {
 }
 
 .footer__info--line {
-    width: 10px;
-    height: 2px;
-    
-    color: #AB1725;
+    display: block;
+    width: 100px;
+    border-top: 2px solid #AB1725;
 }
