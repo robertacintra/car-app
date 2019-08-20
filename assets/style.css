@@ -10,7 +10,7 @@ body {
 
 h2 {
     color: #AB1725;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 
@@ -22,6 +22,9 @@ h4 {
 h5 {
     color: #0F1C2D;
     font-weight: 500;
+    font-size: 1rem;
+    margin-top: -10px;
+    letter-spacing: 0.1em;
 }
 
 .navbar__menu--link:link, .navbar__menu--link:visited { 
@@ -32,7 +35,6 @@ h5 {
 .navbar__menu--link:link:active, .navbar__menu--link:visited:active { 
     color: #0F1C2D;
     border-bottom: 2px solid #AB1725;
-    font-weight: bold;
 }
 
 .highlight__red {
@@ -62,7 +64,7 @@ h5 {
     margin: auto 0.9em;
 }
 
-.navbar__menu--link:hover{
+.navbar__menu--link:hover:focus {
     color: #0F1C2D;
     border-bottom: 2px solid #AB1725;
 }
@@ -126,6 +128,19 @@ section {
     width: 100%;
     justify-content: space-around;
     height: 85px;
+}
+
+.footer__info--numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.smallcaps {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #AB1725;
+    margin-left: 0.3em;
+    margin-top: 2.1em;
 }
 
 .footer__info--line {
