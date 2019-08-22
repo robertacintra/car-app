@@ -1,18 +1,18 @@
-
-
 .color {
     display: flex;
     flex-direction: inherit;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
 }
 
 .color__image {
     flex-direction: column;
-    width: 40%;
+    width: 45%;
 }
+
 .color__options {
-    width: 40%;
+    width: 35%;
+    align-self: center;
 }
 
 .color__options p {
@@ -23,6 +23,39 @@
 .color__options--itens {
     display: flex;
     justify-content: space-between;
+    padding-top: 10%;
+}
+
+.color__image img {
+    width: 90%;
+    padding-top: 10%;
+}
+
+h3 {
+    font-weight: 100;
+    color: #0F1C2D;
+    margin-top: -5px;
+    letter-spacing: 0.1em;
+}
+
+h6 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #0F1C2D;
+    letter-spacing: 0.1em;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.color__red {
+    color: #AB1725;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #0F1C2D;
+    padding-bottom: 5%;
 }
 
 .footerbar {
@@ -64,4 +97,10 @@
 
 .footerbar__next--arrow {
     width: 25%;
+}
+
+.footerbar__color img {
+    width: 100px;
+    padding-top: 20%;
+    padding-left: 75%;
 }
