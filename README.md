@@ -1,7 +1,7 @@
 # car-app
 
 - Install lib
-> npm install live-server
+> npm install -g live-server
 
 - Run with
 > live-server
